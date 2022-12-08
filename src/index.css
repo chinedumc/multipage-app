@@ -1,0 +1,14 @@
+.btn {
+  background-color: #1eb3be;
+font-size: 1rem;
+padding: .2rem .75rem;
+margin-top: .5rem;
+color: #fff;
+text-decoration: none;
+}
+
+.btn:hover{
+  background: #045f68;
+  color: #1eb3be;
+}
+
