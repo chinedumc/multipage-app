@@ -1,11 +1,9 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 const About = () => {
 	return (
 		<>
-			About
-			<Link to="/product" className="btn">
-				Products
-			</Link>
+			<h1>About Page</h1>
+			
 		</>
 	);
 };

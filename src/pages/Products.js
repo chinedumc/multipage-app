@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Product = () => {
+const Products = () => {
 	return (
 		<>
 			Product Page
@@ -13,4 +13,4 @@ const Product = () => {
 	);
 };
 
-export default Product;
+export default Products;

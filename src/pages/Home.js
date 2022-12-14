@@ -1,10 +1,10 @@
 import { Outlet } from "react-router-dom";
-// import "../index.css";
+import Navbar from "../components/Navbar/Navbar";
 
 const Home = () => {
 	return (
 		<>
-			<div>Home element Across Pages</div>
+			<Navbar />
 			<Outlet />
 		</>
 	);
