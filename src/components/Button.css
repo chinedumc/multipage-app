@@ -11,7 +11,7 @@
 }
 
 .btn:hover {
-	padding: 8px 20px;
+	/* padding: 8px 20px; */
 	transition: all 0.3s ease-out;
 	background: #8a6707;
 	color: #f0b40f;
@@ -34,7 +34,7 @@
 .btn--medium {
 	padding: 8px 15px;
 	border-radius: 4px;
-	font-size: 18px;
+	font-size: 15px;
 	color: #fff;
 }
 

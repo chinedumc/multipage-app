@@ -4,7 +4,7 @@ import { GiMedicalDrip } from "react-icons/gi";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
 import { useState } from "react";
-import { Button } from "../Button";
+// import { Button } from "../Button";
 
 const Navbar = () => {
 	const [IconClicked, setIconClicked] = useState(false);
@@ -35,7 +35,7 @@ const Navbar = () => {
 					);
 				})}
 			</ul>
-			<Button>Sign Up</Button>
+			{/* <Button>Sign In</Button> */}
 		</nav>
 	);
 };

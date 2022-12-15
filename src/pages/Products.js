@@ -1,13 +1,13 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Products = () => {
 	return (
 		<>
-			Product Page
+			<h1>Product Page</h1>
 			<div>
-				<Link to="/" className="btn">
+				{/* <Link to="/" className="btn">
 					Back To Home
-				</Link>
+				</Link> */}
 			</div>
 		</>
 	);
