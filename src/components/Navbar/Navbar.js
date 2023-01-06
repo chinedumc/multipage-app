@@ -6,7 +6,7 @@ import "./Navbar.css";
 import { useState } from "react";
 // import { Button } from "../Button";
 
-const Navbar = () => {
+const Navbar = ({user}) => {
 	const [IconClicked, setIconClicked] = useState(false);
 
 	const handleClick = () => {
@@ -35,7 +35,7 @@ const Navbar = () => {
 					);
 				})}
 			</ul>
-			{/* <Button>Sign In</Button> */}
+			{/* <Button>{user?'Sign Out':'Sign In'}</Button> */}
 		</nav>
 	);
 };

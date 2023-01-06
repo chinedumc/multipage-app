@@ -3,7 +3,7 @@ import { Navigate } from "react-router-dom"
 const ProtectedRoute = ({children, user}) => {
 
   if(!user) {
-    return <Navigate to='/dash' />
+    return <Navigate to='/' />
   }
   return children
 }
